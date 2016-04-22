@@ -31,8 +31,4 @@ public class Race {
 	public static void finishCar() {
 		finish.countDown();
 	}
-	
-	public void disqualifyCar(int numberCar, long timeAfterStart) {
-		cars[numberCar].interrupt();
-	}
 }

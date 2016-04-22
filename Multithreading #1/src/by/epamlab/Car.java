@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 public class Car extends Thread {
     private static final long MAX_DISTANCE = 10000;
     Logger log = Logger.getLogger(getClass().getName());
-    private static String winner = null;
+    private static String winner;
     private long friction; 
     private long distance; 
     private String name;
